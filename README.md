@@ -62,11 +62,11 @@ The following approach is followed to perform Lead Score Case study using Logist
 1.  After Building the model, we have performed evaluation metrics on both train and test data. Checked based on the Sensitivity and Specificity as well as Precision and Recall. We have considered the optimal cutoff based on Sensitivity and Specificity for calculating the final predictions.
 2.   On the train dataset, for the optimal threshold of 0.3 we got the sensitivity or Recall as 91.65 % while the optimal cutoff chosen as 0.7 we got the sensitivity or Recall as 80.74 %.
 3.   On the test dataset, for the optimal threshold of 0.3 we got the sensitivity or Recall as 92.32 % while the optimal cutoff chosen as 0.7 we got the sensitivity or Recall as 80.42 %.
-4.   Also the lead score calculated shows the conversion rate on the final predicted model is around 80% in train and test set
+4.   Also the lead score calculated shows the conversion rate on the final predicted model is above 80% in train and test set
 5.  The top 3 variables that contribute for lead getting converted in the model are
-    -  Total Time Spent on Website
-    -  Lead Origin_Lead Add Form
-    -  Lead Source_Olark Chat
+    -  Tags_Lost to EINS – 6.6208
+    -  Tags_Closed by Horizzon – 6.0712
+    -  Tags_Will revert after reading the email – 4.4926
  6.  Based on the above summary of model prediction and evaluation it was concluded that this model seems to be good with good sensitivity or recall as satisfies our requirement.
 
 
